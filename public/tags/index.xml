@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Ideas</title>
+    <link>https://blog.ashishsantikari.info/tags/</link>
+    <description>Recent content in Tags on Ideas</description>
+    <image>
+      <title>Ideas</title>
+      <url>https://blog.ashishsantikari.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://blog.ashishsantikari.info/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 14 Mar 2021 20:24:55 +0000</lastBuildDate><atom:link href="https://blog.ashishsantikari.info/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>headphones</title>
+      <link>https://blog.ashishsantikari.info/tags/headphones/</link>
+      <pubDate>Sun, 14 Mar 2021 20:24:55 +0000</pubDate>
+      
+      <guid>https://blog.ashishsantikari.info/tags/headphones/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>noise cancellation</title>
+      <link>https://blog.ashishsantikari.info/tags/noise-cancellation/</link>
+      <pubDate>Sun, 14 Mar 2021 20:24:55 +0000</pubDate>
+      
+      <guid>https://blog.ashishsantikari.info/tags/noise-cancellation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>review</title>
+      <link>https://blog.ashishsantikari.info/tags/review/</link>
+      <pubDate>Sun, 14 Mar 2021 20:24:55 +0000</pubDate>
+      
+      <guid>https://blog.ashishsantikari.info/tags/review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>array</title>
+      <link>https://blog.ashishsantikari.info/tags/array/</link>
+      <pubDate>Fri, 22 Dec 2017 18:35:32 +0000</pubDate>
+      
+      <guid>https://blog.ashishsantikari.info/tags/array/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javascript</title>
+      <link>https://blog.ashishsantikari.info/tags/javascript/</link>
+      <pubDate>Fri, 22 Dec 2017 18:35:32 +0000</pubDate>
+      
+      <guid>https://blog.ashishsantikari.info/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reduce</title>
+      <link>https://blog.ashishsantikari.info/tags/reduce/</link>
+      <pubDate>Fri, 22 Dec 2017 18:35:32 +0000</pubDate>
+      
+      <guid>https://blog.ashishsantikari.info/tags/reduce/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
