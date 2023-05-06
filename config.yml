@@ -1,4 +1,4 @@
-baseURL: "https://ideas.ashishsantikari.info/"
+baseURL: "https://blog.ashishsantikari.info/"
 title: Ideas
 paginate: 5
 theme: PaperMod
@@ -7,8 +7,6 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
-googleAnalytics: UA-123-45
 
 outputs:
   home:
@@ -23,7 +21,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Ideas
-  description: "ExampleSite description"
+  description: "Micro blogging site by Ashish Santikari"
   keywords: [Blog, JavaScript, React]
   author: Ashish Santikari
   # author: ["Me", "You"] # multiple authors
@@ -65,7 +63,7 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Ideas
+    title: "Ideas"
     subtitle: "worth sharing"
     imageUrl: ""
     imageWidth: 120
@@ -75,26 +73,21 @@ params:
       - name: Posts
         url: posts
 
-  # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
-
   socialIcons:
     - name: twitter
       url: "https://twitter.com/__jsdev"
     - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://stackoverflow.com/users/3985206/ashish-santikari"
     - name: github
       url: "https://github.com/ashishsantikari"
 
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -102,7 +95,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/ashishsantikari/ideas/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -118,6 +111,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 5
     - identifier: posts
       name: Posts
       url: /posts/
@@ -135,10 +132,7 @@ menu:
       url: https://ashishsantikari.info
       weight: 40
       external: true
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 5
+    
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
