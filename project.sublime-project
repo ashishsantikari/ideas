@@ -1,0 +1,16 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+		},
+/*{
+			/*"follow_symlinks": true,* /
+			"path": "static/using-reduce",
+		},*/
+/*{
+			/*"follow_symlinks": true,* /
+			"path": "static/using-reduce",
+		},*/
+	],
+}
