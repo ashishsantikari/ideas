@@ -1,8 +1,4 @@
-{{- if and (hugo.IsProduction) (site.Params.gtmId) }}
-{{$gtmId := site.Params.gtmId }}
-<script async src="https://www.googletagmanager.com/gtag/js?id={{ $gtmId }}"></script>
 <script>
-  // unregister service workers from gatsby based system
   if(window.navigator && navigator.serviceWorker) {
     navigator.serviceWorker.getRegistrations()
     .then(function(registrations) {
@@ -11,9 +7,4 @@
       }
     });
   }
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', '{{ $gtmId }}');
 </script>
-{{- end }}
