@@ -75,11 +75,13 @@ params:
 
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/__jsdev"
+      url: https://twitter.com/_jsdev
     - name: stackoverflow
-      url: "https://stackoverflow.com/users/3985206/ashish-santikari"
+      url: https://stackoverflow.com/users/3985206/ashish-santikari
     - name: github
-      url: "https://github.com/ashishsantikari"
+      url: https://github.com/ashishsantikari
+    - name: linkedin
+      url: https://linkedin.com/in/asantikari
 
   # analytics:
   #   google:
