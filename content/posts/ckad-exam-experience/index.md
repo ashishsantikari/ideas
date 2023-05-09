@@ -1,7 +1,6 @@
 ---
 title: "CKAD Exam Experience"
 date: 2023-05-08T21:27:49+00:00
-draft: true
 description: "My experience with Certified Kubernetes Application Developer exam"
 tags: ['kubernetes', 'exam', 'ckad', 'helm']
 ShowToc: true
