@@ -2,6 +2,7 @@
 title: A bug on Webkit with canvas and REM units
 date: "2020-04-20T19:18:51.801Z"
 description: REM unit on canvas, wekbit incompatibility issue
+canonicalURL: https://blog.ashishsantikari.info/posts/bug-webkit-and-canvas/
 ---
 
 Two months back, I was working with ChartJS to render a very simple pie chart.

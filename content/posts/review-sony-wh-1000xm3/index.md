@@ -2,6 +2,7 @@
 title: Review of Sony WH-1000XM3
 date: "2021-03-14T20:24:55.859Z"
 description: Honest Review of Sony WH-1000XM3 headphones.
+canonicalURL: https://blog.ashishsantikari.info/posts/review-sony-wh-1000xm3
 tags: ["review","headphones","noise cancellation"]
 
 cover:
