@@ -3,7 +3,7 @@ title: My toolkit
 date: "2021-02-24T22:10:09.168Z"
 description: The tools I use which make me productive
 cover:
-  image: "/my-toolkit/swiss-knife.jpg"
+  image: "swiss-knife.jpg"
   responsive: true
   hidden: false
 ---

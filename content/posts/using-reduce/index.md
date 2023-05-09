@@ -5,7 +5,7 @@ description: Using reduce method in javascript.
 tags: ["array","reduce","javascript"]
 
 cover:
-  image: "using-reduce/post_header.jpg"
+  image: "post_header.jpg"
   responsive: true
   hidden: false
 ---

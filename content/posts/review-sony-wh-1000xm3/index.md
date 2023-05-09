@@ -5,7 +5,7 @@ description: Honest Review of Sony WH-1000XM3 headphones.
 tags: ["review","headphones","noise cancellation"]
 
 cover:
-  image: "review-sony-wh-1000xm3/headphone.jpg"
+  image: headphone.jpg
   responsive: true
   hidden: false
 ---
@@ -33,7 +33,7 @@ the various other modes present. It blows me away with the performance of produc
 I also love the touch pad on the right side which is so amazing and has that additional style
 factor.
 
-{{<figure align="center" src="/review-sony-wh-1000xm3/must-have.jpg" >}}
+![wow]
 
 ## The Trick
 
@@ -51,7 +51,11 @@ Google Assistant trigger button. And Voila!
 Try pressing the _[NC/AMBIENT]_ button to toggle through all the modes and also when, you are connected to any bluetooth
 devices even computers(PC/Mac/Linux).
 
-{{<figure align="center" src="/review-sony-wh-1000xm3/celebrate.jpg" >}}
+![celebrate]
+
+
 
 [app]: https://www.sony.com/electronics/headphones-connect-app
+[wow]: must-have.jpg#center
+[celebrate]: celebrate.jpg#center
 
