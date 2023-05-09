@@ -2,6 +2,7 @@
 title: Using Reduce Method
 date: "2017-12-22T18:35:32.169Z"
 description: Using reduce method in javascript.
+canonicalURL: https://blog.ashishsantikari.info/posts/using-reduce
 tags: ["array","reduce","javascript"]
 
 cover:
