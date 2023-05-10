@@ -1,6 +1,6 @@
 baseURL: https://blog.ashishsantikari.info
 title: Ideas
-paginate: 5
+paginate: 3
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -46,6 +46,13 @@ params:
   showtoc: false
   tocopen: false
 
+  comments: true
+
+  utteranc:
+    enable: true
+    repo: ashishsantikari/ideas
+    issueTerm: pathname
+
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
@@ -62,7 +69,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: "Ideas"
     subtitle: "worth sharing"
     imageUrl: ""
@@ -72,6 +79,10 @@ params:
     buttons:
       - name: Posts
         url: posts
+
+  homeInfoParams:
+    title: "Ideas"
+    content: "worth sharing"
 
   socialIcons:
     - name: twitter
