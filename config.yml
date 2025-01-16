@@ -1,7 +1,11 @@
 baseURL: https://blog.ashishsantikari.info
+languageCode: "en-us"
+defaultContentLanguage: "en"
 title: Ideas
-paginate: 3
 theme: PaperMod
+
+pagination:
+  pagerSize: 3
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -40,16 +44,12 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
   hidemeta: false
   hideSummary: false
   showtoc: false
   tocopen: false
 
-  comments: true
-
-  utteranc:
-    enable: true
+  utterances:
     repo: ashishsantikari/ideas
     issueTerm: pathname
 
@@ -106,9 +106,9 @@ params:
   #   id: "your id"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
+    hidden: fasle # hide everywhere but not in structured data
     hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hiddenInSingle: false # hide on single page
 
   editPost:
     disabled: true
@@ -159,8 +159,3 @@ pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai

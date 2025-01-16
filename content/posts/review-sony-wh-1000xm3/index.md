@@ -6,9 +6,10 @@ canonicalURL: https://blog.ashishsantikari.info/posts/review-sony-wh-1000xm3
 tags: ["review","headphones","noise cancellation"]
 
 cover:
-  image: headphone.jpg
-  responsive: true
-  hidden: false
+    image: headphone.jpg
+    alt: "Sony WH-1000XM3 Headphones"
+    caption: "Sony WH-1000XM3 Noise Cancelling Headphones"
+    relative: true
 ---
 
 Dear Readers, welcome to my blog. I hope you are okay in this Corona Pandemic, I am certainly doing good too.
@@ -34,29 +35,22 @@ the various other modes present. It blows me away with the performance of produc
 I also love the touch pad on the right side which is so amazing and has that additional style
 factor.
 
-![wow]
+![Must Have](must-have.jpg#center)
 
 ## The Trick
 
 Now, the feature of toggling the various modes of the headphones is very much limited to mobile connectivity and not
-computers(PC/Mac/Linux). You don't have the software like the [Headphones][app] app that
+computers(PC/Mac/Linux). You don't have the software like the [Headphones](https://www.sony.com/electronics/headphones-connect-app) app that
 is required for you to toggle between
 the various sound modes in the headphones. But, I figured out a way to achieve this.
 You just miss upon the Google Assistant/Alexa integration which is quite okay for a deal like this.
 "Sony, do you hear a product feedback? #backlog #productfeedback".
 
-Anyway, for this, you need to have the headphones paired on with the ["Headphones app"][app]. Once in the app,
+Anyway, for this, you need to have the headphones paired on with the ["Headphones app"](https://www.sony.com/electronics/headphones-connect-app). Once in the app,
 go to System -> Change function of _[NC/AMBIENT]_ button to Ambient Sound control. By default, it comes with
 Google Assistant trigger button. And Voila!
 
 Try pressing the _[NC/AMBIENT]_ button to toggle through all the modes and also when, you are connected to any bluetooth
 devices even computers(PC/Mac/Linux).
 
-![celebrate]
-
-
-
-[app]: https://www.sony.com/electronics/headphones-connect-app
-[wow]: must-have.jpg#center
-[celebrate]: celebrate.jpg#center
-
+![Celebrate](celebrate.jpg#center)
