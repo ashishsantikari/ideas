@@ -15,8 +15,13 @@ tags:
 
 cover:
   image: "ai-future.png"
+  relative: true
   hidden: false
   responsive: true
+  linkFullImages: true
+
+params:
+  ShowShareButtons: true
 ---
 
 It’s wild to think about how a simple home computer—a machine that could barely run a text editor or a small 2D game—used to amaze us. Now, we’ve got Artificial Intelligence (AI) quietly handling tasks in our everyday devices, from suggesting which movie to watch next to helping doctors spot illnesses faster. It’s easy to forget just how rapidly AI has grown because so much of it happens behind the scenes. But if you peek under the hood, you’ll see that training those clever models and keeping them running is neither cheap nor straightforward.
