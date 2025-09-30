@@ -1,0 +1,42 @@
+redirectsOrigin = "config"
+plugins = []
+headers = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/Users/ashishsantikari/Documents/git/work/personal/blog/public"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "hugo --gc --minify"
+
+[build.environment]
+HUGO_VERSION = "0.150.0"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[[redirects]]
+from = "/npmjs/*"
+to = "/npmjs/"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
