@@ -5,7 +5,7 @@ title = "Ideas"
 theme = "PaperMod"
 
 [pagination]
-pagerSize = 3
+pagerSize = 5
 
 enableRobotsTXT = true
 buildDrafts = false
@@ -23,7 +23,7 @@ minifyOutput = true
 env = "production" # to enable google analytics, opengraph, twitter-cards and schema.
 title = "Ideas"
 description = "Micro blogging site by Ashish Santikari"
-keywords = ["Blog", "JavaScript", "React"]
+keywords = ["Blog", "Application Development", "Software Engineering", "Artificial Intelligence"]
 author = "Ashish Santikari"
 # author: ["Me", "You"] # multiple authors
 # images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -43,7 +43,7 @@ disableSpecial1stPost = false
 disableScrollToTop = false
 hidemeta = false
 hideSummary = false
-showtoc = false
+showtoc = true
 tocopen = false
 
 [params.utterances]

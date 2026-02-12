@@ -1,7 +1,7 @@
 ---
 title: "AI Developer Guide"
 date: 2026-02-12T12:28:45+05:30
-draft: true
+draft: false
 ---
 ## Navigating the Full-Stack AI Roller Coaster: A Product Engineer’s Guide to Efficiency
 
