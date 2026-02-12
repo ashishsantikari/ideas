@@ -72,4 +72,4 @@ AI generates code, but you own the product. Your role is now that of a **Product
 
 The job market is incredibly tough right now, and the industry is shifting rapidly toward automated code generation. For developers—especially juniors—now is the time to brace yourselves.
 
-Coding is no longer just about syntax; it’s about **leverage**. Focus on building a grounded foundation in basic knowledge, with a heavy emphasis on **planning and system design**. When the AI can write the functions, your value as a **Product Engineer** lies in knowing *what* to build, *why* it matters to the user, and *how* the pieces fit together into a cohesive whole.
+Coding is no longer just about syntax; it’s about **leverage**. Focus on building a grounded foundation in basic knowledge, with a heavy emphasis on **planning and system design**. When the AI can write the functions, your value as a **Product Engineer** lies in knowing *what* to build, *why* it matters to the user, and *how* the pieces fit together into a cohesive solution.
