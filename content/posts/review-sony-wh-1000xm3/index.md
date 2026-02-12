@@ -6,7 +6,7 @@ canonicalURL: https://blog.ashishsantikari.info/posts/review-sony-wh-1000xm3
 tags: ["review","headphones","noise cancellation"]
 
 cover:
-    image: headphone.jpg
+    image: ,/headphone.jpg
     alt: "Sony WH-1000XM3 Headphones"
     caption: "Sony WH-1000XM3 Noise Cancelling Headphones"
     relative: true

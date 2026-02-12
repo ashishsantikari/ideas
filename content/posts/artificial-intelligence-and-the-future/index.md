@@ -14,7 +14,7 @@ tags:
   - Anthropic
 
 cover:
-  image: "ai-future.png"
+  image: "./ai-future.png"
   relative: true
   hidden: false
   responsive: true
