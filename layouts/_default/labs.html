@@ -1,0 +1,41 @@
+{{- define "main" }}
+{{- $labs := site.Data.labs }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+<div class="labs">
+  {{- range $labs }}
+  <div class="labs-card">
+    <div class="labs-card-header">
+      <h2>{{ .title }}{{- with .version }} <span class="labs-version">v{{ . }}</span>{{ end }}</h2>
+      {{- with .status }}
+      <span class="labs-status labs-status--{{ . }}">{{ . }}</span>
+      {{- end }}
+    </div>
+    <p class="labs-description">{{ .description }}</p>
+    {{- with .links }}
+    <div class="labs-links">
+      {{- range . }}
+      <a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a>
+      {{- end }}
+    </div>
+    {{- end }}
+    {{- with .tags }}
+    <div class="labs-tags">
+      {{- range . }}
+      <span class="labs-tag">{{ . }}</span>
+      {{- end }}
+    </div>
+    {{- end }}
+  </div>
+  {{- end }}
+</div>
+
+{{- end }}{{/* end main */}}

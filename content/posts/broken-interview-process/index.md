@@ -5,6 +5,7 @@ description: "A critical look at how technical interviews often focus on theoret
 canonicalURL: "https://blog.ashishsantikari.info/posts/broken-interview-process"
 tags: ["career", "interviews", "software-development"]
 draft: false
+archived: true
 
 cover:
   hidden: false

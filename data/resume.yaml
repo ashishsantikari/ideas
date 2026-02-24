@@ -1,0 +1,197 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+name: "Ashish Santikari"
+title: "Senior Software Engineer / Frontend Architect"
+location: "Berlin, Germany"
+
+contacts:
+  email: "santikari.ashish@gmail.com"
+  linkedin: "linkedin.com/in/asantikari"
+  github: "github.com/ashishsantikari"
+  website: "ashishsantikari.info"
+
+summary:
+  - "Determined Technical Leader with 11 years of experience in frontend development and generative AI,"
+  - "successfully revitalized career through mastering German language and establishing sustainable routines."
+  - "Leveraged time off to enhance professional and personal growth."
+
+experience:
+  - role: "Career Break / German Language Learning"
+    company: "Sabbatical"
+    location: "Berlin, DE"
+    period: "April 2025 - December 2025"
+    description:
+      - "Accomplished full readiness to re-enter the workforce as measured by sustainable routines and improved German proficiency, by taking a career break to recover from burnout and completing structured German language training."
+
+  - role: "Senior Software Engineer – AI"
+    company: "International Hochschule (IU) GmbH"
+    location: "Berlin, DE"
+    period: "December 2023 - March 2025"
+    description:
+      - "Led delivery of an AI-powered Deep Dialog Learning system using Python, prompt engineering that reduced student time-to-exam readiness by 27% for 130,000+ students, while driving cross-functional alignment on scope, privacy/ops constraints, and milestones across stakeholders."
+      - "Shipped real-time conversation analytics service using NodeJS, AWS Lambda, Kafka, MySQL and a Microsoft Teams Copilot integration TypeScript, Microsoft Graph APIs, Copilot SDK that increased active learning engagement by 23%."
+      - "Owned release planning and maintained technical documentation (service contracts, run-books, implementation notes) to ensure maintainability and reliable operations across teams."
+      - "Position impacted due to restructuring in the organization, seeking a workplace with long-term growth."
+
+  - role: "Tech Lead"
+    company: "SuccessPro (Freelance)"
+    location: "Remote, US"
+    period: "October 2023 - April 2025"
+    description:
+      - "Owned the rewrite strategy to accelerate feature delivery, leading a 4-engineer squad to re-platform the frontend (React/TypeScript/React Query) and reducing lead time by 40%."
+      - "Drove technical execution through architecture reviews, high-leverage pairing, and decision-making, sustaining ~90% on-time delivery during the critical platform migration."
+      - "Established cross-squad release and quality standards by implementing automated testing gates (Playwright, Chromatic), increasing coverage to 50% and cutting release bugs by half."
+      - "Defined and documented architectural decisions and coding conventions, aligning teams on shared patterns to ensure long-term maintainability and consistency."
+
+  - role: "Senior Software Engineer"
+    company: "Omnipresent"
+    location: "Berlin, DE"
+    period: "December 2022 - February 2023"
+    description:
+      - "Led a 2-person team to ship time-off management system using React, TypeScript, TanStack Query, Express based REST APIs and AWS Lambda while coordinating stakeholder alignment with product and HR on scope and release sequencing, reducing churn from late-breaking changes."
+      - "Position impacted due to restructuring in the organization."
+
+  - role: "Expert Software Engineer"
+    company: "Shop Apotheke"
+    location: "Berlin, DE"
+    period: "May 2021 - November 2022"
+    description:
+      - "Owned the cross-sell / up-sell cart growth problem end-to-end, setting the experimentation and delivery strategy (A/B testing, feature flags) and defining rollout policies for high-traffic changes (monitoring guardrails, rollback readiness); reduced time-to-market by 33%."
+      - "Led the decision-making and execution for migrating the newsletter experience from CSR to SSR, aligning on performance and conversion goals and driving an iterative experiment cadence that delivered 10% month-over-month signup growth."
+      - "Drove frontend chapter-wide technical direction by owning initiatives that scaled across teams—code quality, automated test-suite adoption, performance, dependency management, security—and shaping the processes and technical foundation for the next-gen shopping cart experience."
+
+  - role: "Senior Software Engineer"
+    company: "finleap connect GmbH"
+    location: "Berlin, DE"
+    period: "February 2020 - April 2021"
+    description:
+      - "Engineered two white-label fintech product's frontend and widget SDK using React, Typescript, Rollup enabling customers integrate platform and features from product suite into internal systems resulting in X paid clients."
+      - "Owned platform integrations by designing reliable REST APIs (Python) to connect ML engine with external banking systems—implementing authentication/authorization, input validation, audit-friendly logging, and resilient error handling to enable adoption across new clients."
+
+  - role: "Senior Software Engineer"
+    company: "Enquero Global LLP"
+    location: "Bengaluru, IN"
+    period: "December 2016 - December 2019"
+    description:
+      - "Led delivery of Atlassian's multi-currency and i18n checkout, partnering with the team to translate requirements into a shippable implementation and driving outcomes of $6M revenue and a 35% sales lift in Japan."
+      - "Set technical direction and led delivery for Veritas by replacing Salesforce-based workflows with a custom Entitlement Management System frontend (Angular), improving operational efficiency and reducing operating expense."
+      - "Built enterprise frontend platforms (PowerMe, DataCatalog) from scratch, shaping architecture and delivery milestones while mentoring engineers and contributing to hiring that scaled the team from 6 to 30+ people in 2 years."
+
+  - role: "Software Engineer"
+    company: "Infosys Limited"
+    location: "Bengaluru, IN"
+    period: "February 2014 - November 2016"
+    description:
+      - "Shipped multiple on-prem enterprise networking projects using Angular, AngularJS, Backbone.js, and D3.js that increased adoption by ~15% across mid-to-large customers."
+      - "Mentored 4 graduate engineers, cutting ramp-up time by ~30% and improving team delivery."
+
+projects:
+  - title: "Shop Apotheke Shopping Cart"
+    company: "Shop Apotheke"
+    link: "https://www.shop-apotheke.com/"
+    description:
+      - "Designed and executed a progressive rollout architecture for the mono repo, integrating with microservices to streamline feature rollout."
+      - "Resulted in a 32% reduction in lead time for feature rollout, resulting in faster time to market."
+      - "Successfully migrated the guest newsletter subscription feature from a monolith system to a modern microservices-based architecture."
+      - "Achieved a 25% reduction in the time it takes to subscribe to the newsletter, resulting in increased potential sales opportunities."
+
+  - title: "Syntea"
+    company: "IU"
+    link: "https://www.iu.org/digital-tools/syntea/"
+    period: "December 2023 - March 2025"
+    description:
+      - "Developed features on Deep Dialog Learning resulting in increase of student engagement by 27% on month-over-month basis."
+      - "Implemented a Conversation Analysis platform to collect, review, and aggregate quality metrics on Syntea conversations, enabling stakeholders to identify pain points and prioritize feature amendments."
+      - "Extended MS Teams Copilot to integrate Syntea directly into Teams, providing students with immediate, context-aware course assistance."
+
+  - title: "Multicurrency and i18N (Cart)"
+    company: "Atlassian"
+    link: "https://www.atlassian.com/purchase/"
+    description:
+      - "Designed and implemented a checkout system supporting multiple currencies and languages for customers in Japan. This increased annual sales by $6 million."
+      - "Led the migration of the shopping cart application from AngularJS to React. This improved development speed by 25%."
+      - "Developed the first scalable shopping cart solution at Atlassian that supports multiple currencies and languages."
+
+experiments:
+  - title: "Paisa.app Optimization (WIP)"
+    description: "Working on UI/UX optimizations for a forked version of Paisa.app. Fixing critical bugs where level 3 expansion breaks the layout, and replacing the legacy tabular view with a stable, responsive grid system."
+    tags: ["Open Source", "UI/UX", "WIP", "Re-design"]
+
+  - title: "Local AI & Workflow Automation"
+    description: "Running Qwen3 4B model locally on MacBook M1 Pro to power personalized workflows: Auto-tagging emails in Thunderbird, integrating with Docker MCP server for a 'Second Brain' workbench in Obsidian, and automating note sync via Git + Rsync to personal cloud and Google Drive with an additional layer of encryption."
+    tags: ["Local LLM", "Qwen3", "Obsidian", "Docker MCP", "Automation"]
+
+  - title: "Home Lab & Personal Cloud"
+    link: "https://ashish.ydns.eu"
+    description: "Self-hosted personal cloud infrastructure on Raspberry Pi 4 using DDNS. Features include Wireguard tunneling for system-wide AdGuard blocking, financial ledger management (Paisa/Ledger-cli), and secure NAS storage."
+    tags: ["Self-Hosted", "RPi4", "DDNS", "Wireguard", "AdGuard", "Finance", "NAS", "Security"]
+
+education:
+  - degree: "Ironhack AI Engineering Bootcamp"
+    institution: "Ironhack"
+    location: "Berlin"
+    year: "2026 Feb - Present"
+    details:
+      - "Currently enrolled in an intensive 9-week full-time bootcamp focused on AI engineering, covering machine learning, deep learning, and natural language processing."
+
+  - degree: "Bachelor of Engineering in Computer Science"
+    institution: "Vinayaka Missions University"
+    location: "Chennai, India"
+    year: "2013"
+    score: 3.5 GPA
+    details:
+      - "Led club activities as Vice President for FOSS Club from 2010-2012."
+      - "Coordinated partnerships and initiatives, increasing visibility and engagement within the department."
+      - "Won District Level Drupal web development competition."
+
+certifications:
+  - name: "Certified Kubernetes Application Developer (CKAD)"
+    issuer: "The Linux Foundation"
+    year: "2023"
+    id: "LF-cntme41cnk"
+
+skills:
+  languages:
+    - "JavaScript"
+    - "TypeScript"
+    - "NodeJS"
+    - "Python3"
+    - "HTML5"
+    - "CSS3"
+    - "SQL"
+    - "NoSQL"
+  frameworks:
+    - "React"
+    - "React Native"
+    - "Expo"
+    - "SolidJS"
+    - "Redux"
+    - "Angular"
+    - "AngularJS"
+    - "Next.js"
+    - "Vue"
+  tools:
+    - "Redux Observable(RxJS)"
+    - "Redux Saga"
+    - "Tanstack Query"
+    - "Tailwind CSS"
+    - "SASS"
+    - "Styled Components"
+    - "Emotion"
+    - "Express"
+    - "FastAPI"
+    - "SQLAlchemy"
+    - "Pydantic"
+    - "uv"
+    - "ruff"
+  other:
+    - "Jest"
+    - "Cypress"
+    - "Playwright"
+    - "Enzyme"
+    - "React Testing Library"
+    - "AWS"
+    - "Docker"
+    - "Kubernetes"
+    - "Git"
+    - "CircleCI"
+    - "Gitlab"

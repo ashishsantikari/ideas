@@ -1,0 +1,91 @@
+/* ── Labs layout ── */
+
+.labs {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.labs-card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.25rem;
+  transition: border-color 0.2s;
+}
+
+.labs-card:hover {
+  border-color: var(--primary);
+}
+
+.labs-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.labs-card-header h2 {
+  font-size: 1.15rem;
+  margin: 0;
+}
+
+.labs-version {
+  font-size: 0.78rem;
+  font-weight: normal;
+  color: var(--secondary);
+  margin-left: 0.3rem;
+}
+
+.labs-status {
+  font-size: 0.75rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  background: var(--code-bg);
+  color: var(--secondary);
+}
+
+.labs-status--published {
+  color: #16a34a;
+}
+
+.labs-status--wip {
+  color: #ca8a04;
+}
+
+.labs-description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0 0 0.75rem;
+  color: var(--content);
+}
+
+.labs-links {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.labs-links a {
+  font-size: 0.85rem;
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.labs-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.labs-tag {
+  display: inline-block;
+  background: var(--code-bg);
+  color: var(--secondary);
+  font-size: 0.78rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+}

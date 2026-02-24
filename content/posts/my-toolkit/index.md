@@ -3,6 +3,7 @@ title: My toolkit
 date: "2021-02-24T22:10:09.168Z"
 description: The tools I use which make me productive
 canonicalURL: https://blog.ashishsantikari.info/posts/my-toolkit/
+archived: true
 cover:
   image: "swiss-knife.jpg"
   responsive: true
