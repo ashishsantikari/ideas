@@ -1,14 +1,15 @@
-{{ if .Site.Params.utteranc.enable }}
+{{ if .Site.Params.comments }}
 
 <div class="comments">
     <script>
-        // load utteranc comment
-        let currTheme = document.body.classList.contains('dark') ? 'dark' : 'light';
+        // load utterances comment
+        let currTheme = document.getElementsByTagName('html')[0].getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
         let theme = currTheme === 'dark' ? 'photon-dark' : 'github-light';
+        debugger;
         let s = document.createElement('script');
         s.src = 'https://utteranc.es/client.js';
-        s.setAttribute('repo', '{{ .Site.Params.utteranc.repo }}');
-        s.setAttribute('issue-term', '{{ .Site.Params.utteranc.issueTerm }}');
+        s.setAttribute('repo', '{{ .Site.Params.utterances.repo }}');
+        s.setAttribute('issue-term', '{{ .Site.Params.utterances.issueTerm }}');
         s.setAttribute('label', "site-comments");
         s.setAttribute('theme', theme);
         s.setAttribute('crossorigin', 'anonymous');
@@ -16,12 +17,12 @@
         document.querySelector('div.comments').innerHTML = '';
         document.querySelector('div.comments').appendChild(s);
 
-        // auto swith utteranc theme by body class change
+        // auto swith utterances theme by body class change
         const mutationObserver = new MutationObserver((mutationsList, observer) => {
             mutationsList.forEach(mutation => {
-                if (mutation.attributeName === "class") {
+                if (mutation.attributeName === "data-theme") {
                     if (document.querySelector('.utterances-frame')) {
-                        const theme = mutation.target.classList.contains("dark") ? 'github-dark' : 'github-light'
+                        const theme = mutation.target.getAttribute("data-theme") === "dark" ? 'github-dark' : 'github-light';
                         const message = {
                             type: 'set-theme',
                             theme: theme
@@ -32,7 +33,7 @@
                 }
             })
         });
-        mutationObserver.observe(document.body, { attributes: true });
+        mutationObserver.observe(document.getElementsByTagName('html')[0], { attributes: true });
     </script>
 </div>
 {{ end }}
