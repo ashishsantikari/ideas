@@ -4,6 +4,7 @@ date: 2023-05-08T21:27:49+00:00
 description: "My experience with Certified Kubernetes Application Developer exam"
 tags: ['kubernetes', 'exam', 'ckad', 'helm']
 ShowToc: true
+archived: true
 
 cover:
   image: "kubernetes_logo.png"

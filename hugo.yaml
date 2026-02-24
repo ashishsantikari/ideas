@@ -1,7 +1,7 @@
 baseURL: https://blog.ashishsantikari.info
 languageCode: en-us
 defaultContentLanguage: en
-title: Ideas
+title: AS
 theme: PaperMod
 pagination:
   pagerSize: 5
@@ -19,7 +19,7 @@ minify:
   minifyOutput: true
 params:
   env: production
-  title: Ideas
+  title: AS
   description: Micro blogging site by Ashish Santikari
   keywords:
     - Blog
@@ -51,7 +51,7 @@ params:
     issueTerm: pathname
   assets: {}
   label:
-    text: Ideas
+    text: AS
   profileMode:
     enabled: true
     title: Ashish Santikari
@@ -64,7 +64,7 @@ params:
       - name: Posts
         url: posts
   homeInfoParams:
-    Title: Ideas
+    Title: AS
     Content: worth sharing
   socialIcons:
     - name: twitter
@@ -98,10 +98,10 @@ params:
       - content
 menu:
   main:
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 5
+    # - identifier: search
+    #   name: Search
+    #   url: /search/
+    #   weight: 5
     - identifier: posts
       name: Posts
       url: /posts/
@@ -114,14 +114,14 @@ menu:
       name: Tags
       url: /tags/
       weight: 30
-    - identifier: portfolio
-      name: Portfolio
-      url: https://ashishsantikari.info
+    - identifier: resume
+      name: Resume
+      url: /resume/
       weight: 40
-    - identifier: privacy
-      name: Privacy
-      url: /privacy/
-      weight: 50
+    - identifier: labs
+      name: Labs
+      url: /labs/
+      weight: 35
 markup:
   highlight:
     noClasses: false

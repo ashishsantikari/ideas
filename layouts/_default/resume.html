@@ -1,0 +1,166 @@
+{{- define "main" }}
+{{- $r := site.Data.resume }}
+
+<div class="resume">
+
+  {{/* ── Header ── */}}
+  <header class="resume-header">
+    <h1>{{ $r.name }}</h1>
+    <p class="resume-title">{{ $r.title }}</p>
+    <p class="resume-location">{{ $r.location }}</p>
+    <ul class="resume-contacts">
+      {{- with $r.contacts.email }}<li><a href="mailto:{{ . }}">{{ . }}</a></li>{{ end }}
+      {{- with $r.contacts.linkedin }}<li><a href="https://{{ . }}" target="_blank" rel="noopener">{{ . }}</a></li>{{ end }}
+      {{- with $r.contacts.github }}<li><a href="https://{{ . }}" target="_blank" rel="noopener">{{ . }}</a></li>{{ end }}
+      {{- with $r.contacts.website }}<li><a href="https://{{ . }}" target="_blank" rel="noopener">{{ . }}</a></li>{{ end }}
+      {{- with $r.contacts.blog }}<li><a href="https://{{ . }}" target="_blank" rel="noopener">{{ . }}</a></li>{{ end }}
+    </ul>
+  </header>
+
+  {{/* ── Summary ── */}}
+  {{- with $r.summary }}
+  <section class="resume-section">
+    <h2>Summary</h2>
+    <p>{{ delimit . " " }}</p>
+  </section>
+  {{- end }}
+
+  {{/* ── Experience ── */}}
+  {{- with $r.experience }}
+  <section class="resume-section">
+    <h2>Experience</h2>
+    {{- range . }}
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <h3>{{ .role }}</h3>
+        <span class="resume-period">{{ .period }}</span>
+      </div>
+      <p class="resume-company">{{ .company }} &middot; {{ .location }}</p>
+      <ul>
+        {{- range .description }}
+        <li>{{ . }}</li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+  </section>
+  {{- end }}
+
+  {{/* ── Projects ── */}}
+  {{- with $r.projects }}
+  <section class="resume-section">
+    <h2>Projects</h2>
+    {{- range . }}
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <h3>
+          {{- if .link }}<a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a>
+          {{- else }}{{ .title }}{{ end }}
+          <span class="resume-separator">|</span> {{ .company }}
+        </h3>
+        {{- with .period }}<span class="resume-period">{{ . }}</span>{{ end }}
+      </div>
+      <ul>
+        {{- range .description }}
+        <li>{{ . }}</li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+  </section>
+  {{- end }}
+
+  {{/* ── Experiments ── */}}
+  {{- with $r.experiments }}
+  <section class="resume-section">
+    <h2>Experiments</h2>
+    {{- range . }}
+    <div class="resume-entry">
+      <h3>
+        {{- if .link }}<a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a>
+        {{- else }}{{ .title }}{{ end }}
+      </h3>
+      <p>{{ .description }}</p>
+      {{- with .tags }}
+      <div class="resume-tags">
+        {{- range . }}
+        <span class="resume-tag">{{ . }}</span>
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+    {{- end }}
+  </section>
+  {{- end }}
+
+  {{/* ── Skills ── */}}
+  {{- with $r.skills }}
+  <section class="resume-section">
+    <h2>Skills</h2>
+    <div class="resume-skills">
+      {{- with .languages }}
+      <div class="resume-skill-group">
+        <strong>Languages:</strong> {{ delimit . ", " }}
+      </div>
+      {{- end }}
+      {{- with .frameworks }}
+      <div class="resume-skill-group">
+        <strong>Frameworks:</strong> {{ delimit . ", " }}
+      </div>
+      {{- end }}
+      {{- with .tools }}
+      <div class="resume-skill-group">
+        <strong>Tools &amp; Libraries:</strong> {{ delimit . ", " }}
+      </div>
+      {{- end }}
+      {{- with .other }}
+      <div class="resume-skill-group">
+        <strong>Testing &amp; Infra:</strong> {{ delimit . ", " }}
+      </div>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+
+  {{/* ── Education ── */}}
+  {{- with $r.education }}
+  <section class="resume-section">
+    <h2>Education</h2>
+    {{- range . }}
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <h3>{{ .degree }}</h3>
+        <span class="resume-period">{{ .year }}</span>
+      </div>
+      <p class="resume-company">{{ .institution }} &middot; {{ .location }}{{ with .score }} &middot; {{ . }}{{ end }}</p>
+      {{- with .details }}
+      <ul>
+        {{- range . }}
+        <li>{{ . }}</li>
+        {{- end }}
+      </ul>
+      {{- end }}
+    </div>
+    {{- end }}
+  </section>
+  {{- end }}
+
+  {{/* ── Certifications ── */}}
+  {{- with $r.certifications }}
+  <section class="resume-section">
+    <h2>Certifications</h2>
+    {{- range . }}
+    <div class="resume-entry">
+      <div class="resume-entry-header">
+        <h3>{{ .name }}</h3>
+        <span class="resume-period">{{ .year }}</span>
+      </div>
+      <p class="resume-company">{{ .issuer }}{{ with .id }} &middot; ID: {{ . }}{{ end }}</p>
+    </div>
+    {{- end }}
+  </section>
+  {{- end }}
+
+</div>
+
+{{- end }}{{/* end main */}}

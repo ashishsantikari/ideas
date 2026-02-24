@@ -3,6 +3,7 @@ title: "Member of 1MB Club"
 date: 2023-05-16T23:22:45+05:30
 draft: false
 tags: ["1MB Club"]
+archived: true
 
 comments: false
 
