@@ -21,6 +21,8 @@ params:
   env: production
   title: AS
   description: Micro blogging site by Ashish Santikari
+# gtmID: "GTM-XXXXXXX"
+# googleAnalyticsID: "G-XXXXXXXXXX"
   keywords:
     - Blog
     - Application Development
