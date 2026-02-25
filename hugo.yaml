@@ -3,6 +3,7 @@ languageCode: en-us
 defaultContentLanguage: en
 title: AS
 theme: PaperMod
+googleAnalytics: "G-XXXXXXXXXX"
 pagination:
   pagerSize: 5
   enableRobotsTXT: true
@@ -21,6 +22,7 @@ params:
   env: production
   title: AS
   description: Micro blogging site by Ashish Santikari
+  gtmID: "GTM-XXXXXXX"
   keywords:
     - Blog
     - Application Development
