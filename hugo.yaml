@@ -21,6 +21,9 @@ params:
   env: production
   title: AS
   description: Micro blogging site by Ashish Santikari
+  # Analytics IDs — set via Netlify environment variables (not hardcoded):
+  #   HUGO_PARAMS_GTMID              → site.Params.gtmID
+  #   HUGO_PARAMS_GOOGLEANALYTICSID  → site.Params.googleAnalyticsID
   keywords:
     - Blog
     - Application Development
