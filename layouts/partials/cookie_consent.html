@@ -33,7 +33,7 @@
     }
 
     function loadAnalytics() {
-        {{ if hugo.IsProduction | or (eq site.Params.env "production") }}
+        {{ if hugo.IsProduction | or (eq site.Params.env "production") | or (eq site.Params.env "deploy-preview") }}
 
         {{ with $gtmID }}
         /* Google Tag Manager */
