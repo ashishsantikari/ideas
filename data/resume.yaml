@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
 name: "Ashish Santikari"
-title: "Senior Software Engineer / Frontend Architect"
+title: "AI Augumented Software Engineer"
 location: "Berlin, Germany"
 
 contacts:
@@ -10,52 +10,42 @@ contacts:
   website: "ashishsantikari.info"
 
 summary:
-  - "Determined Technical Leader with 11 years of experience in frontend development and generative AI,"
-  - "successfully revitalized career through mastering German language and establishing sustainable routines."
-  - "Leveraged time off to enhance professional and personal growth."
+  - "Staff Engineer with 11+ years shipping full-stack and AI-powered products at B2B SaaS and B2C companies."
+  - "Built and scaled production LLM systems — including RAG pipelines and conversational AI — for platforms serving 130,000+ users, while driving outcomes like $6M in revenue impact and a 23% lift in active user engagement."
+  - "Comfortable owning the hard technical decisions: system architecture, cross-functional scope alignment, and the kind of foundational work that makes future features faster to ship. Passionate about building AI systems that are genuinely useful — not just technically impressive — and about growing engineering teams that hold themselves to that same standard."
 
 experience:
-  - role: "Career Break / German Language Learning"
-    company: "Sabbatical"
-    location: "Berlin, DE"
-    period: "April 2025 - December 2025"
-    description:
-      - "Accomplished full readiness to re-enter the workforce as measured by sustainable routines and improved German proficiency, by taking a career break to recover from burnout and completing structured German language training."
-
   - role: "Senior Software Engineer – AI"
     company: "International Hochschule (IU) GmbH"
     location: "Berlin, DE"
     period: "December 2023 - March 2025"
     description:
-      - "Led delivery of an AI-powered Deep Dialog Learning system using Python, prompt engineering that reduced student time-to-exam readiness by 27% for 130,000+ students, while driving cross-functional alignment on scope, privacy/ops constraints, and milestones across stakeholders."
-      - "Shipped real-time conversation analytics service using NodeJS, AWS Lambda, Kafka, MySQL and a Microsoft Teams Copilot integration TypeScript, Microsoft Graph APIs, Copilot SDK that increased active learning engagement by 23%."
-      - "Owned release planning and maintained technical documentation (service contracts, run-books, implementation notes) to ensure maintainability and reliable operations across teams."
-      - "Position impacted due to restructuring in the organization, seeking a workplace with long-term growth."
+      - "Led planning and delivery of multiple AI-powered learning systems using VueJS, Python, Fast API, RAG, Kafka, MongoDB resulting in reduced student's time-to-exam readiness by 27% for 130,000+ students, while driving cross-functional alignment on scope, privacy/ops constraints, and milestones across stakeholders."
+      - "Designed and delivered conversation analytics platform using Open-AI Batch Endpoints, NodeJS, AWS Lambda, Kafka, MySQL enabling stakeholders to decide on feature planning and platform growth."
+      - "Led integration of chat-bot into MS Teams Copilot using TypeScript, Microsoft Graph APIs, Copilot SDK that increased adoption and active learning engagement for students by 23%."
 
-  - role: "Tech Lead"
-    company: "SuccessPro (Freelance)"
+  - role: "Tech Lead (Freelance)"
+    company: "SuccessPro"
     location: "Remote, US"
     period: "October 2023 - April 2025"
     description:
-      - "Owned the rewrite strategy to accelerate feature delivery, leading a 4-engineer squad to re-platform the frontend (React/TypeScript/React Query) and reducing lead time by 40%."
-      - "Drove technical execution through architecture reviews, high-leverage pairing, and decision-making, sustaining ~90% on-time delivery during the critical platform migration."
+      - "Owned the rewrite strategy to accelerate feature delivery, leading a 4‑engineer squad to re-engineer the frontend platform (React/TypeScript/Tanstack Query, TailwindCSS) and reducing lead time by 40%."
       - "Established cross-squad release and quality standards by implementing automated testing gates (Playwright, Chromatic), increasing coverage to 50% and cutting release bugs by half."
-      - "Defined and documented architectural decisions and coding conventions, aligning teams on shared patterns to ensure long-term maintainability and consistency."
+      - "Drove technical execution through architecture reviews, high-leverage pairing, and decision-making, sustaining ~90% on-time delivery during the critical platform integration."
 
   - role: "Senior Software Engineer"
     company: "Omnipresent"
     location: "Berlin, DE"
     period: "December 2022 - February 2023"
     description:
-      - "Led a 2-person team to ship time-off management system using React, TypeScript, TanStack Query, Express based REST APIs and AWS Lambda while coordinating stakeholder alignment with product and HR on scope and release sequencing, reducing churn from late-breaking changes."
-      - "Position impacted due to restructuring in the organization."
+      - "Led a 2-person team to ship time-off management system using React, TypeScript, Tanstack Query, NodeJS, Express and AWS Lambda while coordinating stakeholder alignment with product and HR on scope and release sequencing, reducing churn from late-breaking changes."
 
-  - role: "Expert Software Engineer"
+  - role: "Expert Software Engineer (Senior Software Engineer)"
     company: "Shop Apotheke"
     location: "Berlin, DE"
     period: "May 2021 - November 2022"
     description:
-      - "Owned the cross-sell / up-sell cart growth problem end-to-end, setting the experimentation and delivery strategy (A/B testing, feature flags) and defining rollout policies for high-traffic changes (monitoring guardrails, rollback readiness); reduced time-to-market by 33%."
+      - "Owned the cross-sell / up-sell cart growth problem end-to-end, setting the experimentation and delivery strategy (A/B testing, feature flags) and defining rollout policies for high-traffic changes (monitoring guardrails, rollback readiness); reduced time-to-market by 33% using React, Python, PostgreSQL, and Kubernetes."
       - "Led the decision-making and execution for migrating the newsletter experience from CSR to SSR, aligning on performance and conversion goals and driving an iterative experiment cadence that delivered 10% month-over-month signup growth."
       - "Drove frontend chapter-wide technical direction by owning initiatives that scaled across teams—code quality, automated test-suite adoption, performance, dependency management, security—and shaping the processes and technical foundation for the next-gen shopping cart experience."
 
@@ -64,8 +54,8 @@ experience:
     location: "Berlin, DE"
     period: "February 2020 - April 2021"
     description:
-      - "Engineered two white-label fintech product's frontend and widget SDK using React, Typescript, Rollup enabling customers integrate platform and features from product suite into internal systems resulting in X paid clients."
-      - "Owned platform integrations by designing reliable REST APIs (Python) to connect ML engine with external banking systems—implementing authentication/authorization, input validation, audit-friendly logging, and resilient error handling to enable adoption across new clients."
+      - "Engineered two white-label fintech product's frontend and widget SDK using React, Typescript, Rollup, Python, and PostgreSQL enabling customers integrate platform and features from product suite into internal systems resulting in multiple paid clients."
+      - "Owned platform integrations by designing, reliable REST APIs (Python) to connect ML engine with external banking systems—implementing authentication/authorization, input validation, audit-friendly logging, and resilient error handling to enable adoption across new clients."
 
   - role: "Senior Software Engineer"
     company: "Enquero Global LLP"
@@ -126,12 +116,12 @@ experiments:
     tags: ["Self-Hosted", "RPi4", "DDNS", "Wireguard", "AdGuard", "Finance", "NAS", "Security"]
 
 education:
-  - degree: "Ironhack AI Engineering Bootcamp"
+  - degree: "Ironhack AI Engineering"
     institution: "Ironhack"
     location: "Berlin"
-    year: "2026 Feb - Present"
+    year: "2026 Feb - 2026 April"
     details:
-      - "Currently enrolled in an intensive 9-week full-time bootcamp focused on AI engineering, covering machine learning, deep learning, and natural language processing."
+      - "Finished an intensive 9-week full-time bootcamp focused on AI engineering, covering machine learning, deep learning, natural language processing, agentic systems, and fine tuning OSS models."
 
   - degree: "Bachelor of Engineering in Computer Science"
     institution: "Vinayaka Missions University"
@@ -144,6 +134,10 @@ education:
       - "Won District Level Drupal web development competition."
 
 certifications:
+  - name: "AI Engineering"
+    issuer: "Ironhack"
+    year: "2026"
+
   - name: "Certified Kubernetes Application Developer (CKAD)"
     issuer: "The Linux Foundation"
     year: "2023"
@@ -153,36 +147,39 @@ skills:
   languages:
     - "JavaScript"
     - "TypeScript"
-    - "NodeJS"
     - "Python3"
-    - "HTML5"
-    - "CSS3"
+    - "NodeJS"
     - "SQL"
     - "NoSQL"
+    - "Chroma DB"
+    - "Redis"
+    - "Apache Kafka"
   frameworks:
     - "React"
-    - "React Native"
-    - "Expo"
-    - "SolidJS"
-    - "Redux"
     - "Angular"
-    - "AngularJS"
     - "Next.js"
+    - "ExpressJS"
+    - "KoaJS"
     - "Vue"
+    - "FastAPI"
+    - "Flask"
   tools:
     - "Redux Observable(RxJS)"
     - "Redux Saga"
     - "Tanstack Query"
     - "Tailwind CSS"
-    - "SASS"
     - "Styled Components"
-    - "Emotion"
-    - "Express"
-    - "FastAPI"
-    - "SQLAlchemy"
-    - "Pydantic"
-    - "uv"
-    - "ruff"
+    - "LangChain"
+    - "LangGraph"
+    - "LangSmith"
+    - "Google ADK"
+    - "Numpy"
+    - "Tensorflow"
+    - "PyTorch"
+    - "Keras"
+    - "Claude Code"
+    - "OpenCode"
+    - "Codex"
   other:
     - "Jest"
     - "Cypress"
@@ -193,5 +190,6 @@ skills:
     - "Docker"
     - "Kubernetes"
     - "Git"
+    - "HuggingFace"
     - "CircleCI"
     - "Gitlab"

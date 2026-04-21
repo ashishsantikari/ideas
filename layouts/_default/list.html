@@ -45,8 +45,10 @@
 {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
 {{- end }}
 
-{{- /* Exclude archived posts from all list pages */ -}}
+{{- /* Exclude archived posts from section lists, but keep them in tag/category pages */ -}}
+{{- if ne .Kind "term" }}
 {{- $pages = where $pages "Params.archived" "!=" true }}
+{{- end }}
 
 {{- $paginator := .Paginate $pages }}
 
