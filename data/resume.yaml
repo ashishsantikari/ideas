@@ -10,7 +10,7 @@ contacts:
   website: "ashishsantikari.info"
 
 summary:
-  - "Staff Product Engineer with 11+ years shipping full-stack and AI-powered products at B2B SaaS and B2C companies."
+  - "Staff Engineer with 11+ years shipping full-stack and AI-powered products at B2B SaaS and B2C companies."
   - "Built and scaled production LLM systems — including RAG pipelines and conversational AI — for platforms serving 130,000+ users, while driving outcomes like $6M in revenue impact and a 23% lift in active user engagement."
   - "Comfortable owning the hard technical decisions: system architecture, cross-functional scope alignment, and the kind of foundational work that makes future features faster to ship. Passionate about building AI systems that are genuinely useful — not just technically impressive — and about growing engineering teams that hold themselves to that same standard."
 
@@ -116,12 +116,12 @@ experiments:
     tags: ["Self-Hosted", "RPi4", "DDNS", "Wireguard", "AdGuard", "Finance", "NAS", "Security"]
 
 education:
-  - degree: "Ironhack AI Engineering Bootcamp"
+  - degree: "Ironhack AI Engineering"
     institution: "Ironhack"
     location: "Berlin"
-    year: "2026 Feb - Present"
+    year: "2026 Feb - 2026 April"
     details:
-      - "Currently enrolled in an intensive 9-week full-time bootcamp focused on AI engineering, covering machine learning, deep learning, and natural language processing."
+      - "Finished an intensive 9-week full-time bootcamp focused on AI engineering, covering machine learning, deep learning, natural language processing, agentic systems, and fine tuning OSS models."
 
   - degree: "Bachelor of Engineering in Computer Science"
     institution: "Vinayaka Missions University"
