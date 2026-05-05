@@ -10,69 +10,70 @@ contacts:
   website: "ashishsantikari.info"
 
 summary:
-  - "Staff Engineer with 11+ years shipping full-stack and AI-powered products at B2B SaaS and B2C companies."
-  - "Built and scaled production LLM systems — including RAG pipelines and conversational AI — for platforms serving 130,000+ users, while driving outcomes like $6M in revenue impact and a 23% lift in active user engagement."
-  - "Comfortable owning the hard technical decisions: system architecture, cross-functional scope alignment, and the kind of foundational work that makes future features faster to ship. Passionate about building AI systems that are genuinely useful — not just technically impressive — and about growing engineering teams that hold themselves to that same standard."
+  - "Software Engineer with 10+ years shipping full-stack and AI-powered products at B2B SaaS and B2C companies."
+  - "Built and scaled production LLM systems — including RAG pipelines and conversational AI chatbots serving 130,000+ students under sub 500 ms latency"
+  - "Comfortable owning the hard technical decisions: system architecture, cross-functional scope alignment, and the kind of foundational work that makes future features faster to ship."
+  - "Passionate about building AI systems that are genuinely useful — not just technically impressive — and about growing engineering teams that hold themselves to that same standard."
 
 experience:
   - role: "Senior Software Engineer – AI"
     company: "International Hochschule (IU) GmbH"
     location: "Berlin, DE"
-    period: "December 2023 - March 2025"
+    period: "Dec 2023 - Mar 2025"
     description:
-      - "Led planning and delivery of multiple AI-powered learning systems using VueJS, Python, Fast API, RAG, Kafka, MongoDB resulting in reduced student's time-to-exam readiness by 27% for 130,000+ students, while driving cross-functional alignment on scope, privacy/ops constraints, and milestones across stakeholders."
-      - "Designed and delivered conversation analytics platform using Open-AI Batch Endpoints, NodeJS, AWS Lambda, Kafka, MySQL enabling stakeholders to decide on feature planning and platform growth."
-      - "Led integration of chat-bot into MS Teams Copilot using TypeScript, Microsoft Graph APIs, Copilot SDK that increased adoption and active learning engagement for students by 23%."
+      # - "Led planning and delivery of multiple AI-powered learning systems using VueJS, Python, Fast API, RAG, Kafka, MongoDB resulting in reduced student's time-to-exam readiness by 27% for 130,000+ students, while driving cross-functional alignment on scope, privacy/ops constraints, and milestones across stakeholders."
+      # - "Designed and delivered conversation analytics platform using Open-AI Batch Endpoints, NodeJS, AWS Lambda, Kafka, MySQL enabling stakeholders to decide on feature planning and platform growth."
+      # - "Led integration of chat-bot into MS Teams Copilot using TypeScript, Microsoft Graph APIs, Copilot SDK that increased adoption and active learning engagement for students by 23%."
 
-  - role: "Tech Lead (Freelance)"
+  - role: "Tech Lead (Part Time Freelance)"
     company: "SuccessPro"
-    location: "Remote, US"
-    period: "October 2023 - April 2025"
+    location: "Remote"
+    period: "Oct 2023 - Apr 2025"
     description:
-      - "Owned the rewrite strategy to accelerate feature delivery, leading a 4‑engineer squad to re-engineer the frontend platform (React/TypeScript/Tanstack Query, TailwindCSS) and reducing lead time by 40%."
-      - "Established cross-squad release and quality standards by implementing automated testing gates (Playwright, Chromatic), increasing coverage to 50% and cutting release bugs by half."
-      - "Drove technical execution through architecture reviews, high-leverage pairing, and decision-making, sustaining ~90% on-time delivery during the critical platform integration."
+      # - "Owned the rewrite strategy to accelerate feature delivery, leading a 4‑engineer squad to re-engineer the frontend platform (React/TypeScript/Tanstack Query, TailwindCSS) and reducing lead time by 40%."
+      # - "Established cross-squad release and quality standards by implementing automated testing gates (Playwright, Chromatic), increasing coverage to 50% and cutting release bugs by half."
+      # - "Drove technical execution through architecture reviews, high-leverage pairing, and decision-making, sustaining ~90% on-time delivery during the critical platform integration."
 
   - role: "Senior Software Engineer"
     company: "Omnipresent"
     location: "Berlin, DE"
-    period: "December 2022 - February 2023"
+    period: "Dec 2022 - Feb 2023"
     description:
-      - "Led a 2-person team to ship time-off management system using React, TypeScript, Tanstack Query, NodeJS, Express and AWS Lambda while coordinating stakeholder alignment with product and HR on scope and release sequencing, reducing churn from late-breaking changes."
+      # - "Led a 2-person team to ship time-off management system using React, TypeScript, Tanstack Query, NodeJS, Express and AWS Lambda while coordinating stakeholder alignment with product and HR on scope and release sequencing, reducing churn from late-breaking changes."
 
   - role: "Expert Software Engineer (Senior Software Engineer)"
     company: "Shop Apotheke"
     location: "Berlin, DE"
-    period: "May 2021 - November 2022"
+    period: "May 2021 - Nov 2022"
     description:
-      - "Owned the cross-sell / up-sell cart growth problem end-to-end, setting the experimentation and delivery strategy (A/B testing, feature flags) and defining rollout policies for high-traffic changes (monitoring guardrails, rollback readiness); reduced time-to-market by 33% using React, Python, PostgreSQL, and Kubernetes."
-      - "Led the decision-making and execution for migrating the newsletter experience from CSR to SSR, aligning on performance and conversion goals and driving an iterative experiment cadence that delivered 10% month-over-month signup growth."
-      - "Drove frontend chapter-wide technical direction by owning initiatives that scaled across teams—code quality, automated test-suite adoption, performance, dependency management, security—and shaping the processes and technical foundation for the next-gen shopping cart experience."
+      # - "Owned the cross-sell / up-sell cart growth problem end-to-end, setting the experimentation and delivery strategy (A/B testing, feature flags) and defining rollout policies for high-traffic changes (monitoring guardrails, rollback readiness); reduced time-to-market by 33% using React, Python, PostgreSQL, and Kubernetes."
+      # - "Led the decision-making and execution for migrating the newsletter experience from CSR to SSR, aligning on performance and conversion goals and driving an iterative experiment cadence that delivered 10% month-over-month signup growth."
+      # - "Drove frontend chapter-wide technical direction by owning initiatives that scaled across teams—code quality, automated test-suite adoption, performance, dependency management, security—and shaping the processes and technical foundation for the next-gen shopping cart experience."
 
   - role: "Senior Software Engineer"
     company: "finleap connect GmbH"
     location: "Berlin, DE"
-    period: "February 2020 - April 2021"
+    period: "Feb 2020 - Apr 2021"
     description:
-      - "Engineered two white-label fintech product's frontend and widget SDK using React, Typescript, Rollup, Python, and PostgreSQL enabling customers integrate platform and features from product suite into internal systems resulting in multiple paid clients."
-      - "Owned platform integrations by designing, reliable REST APIs (Python) to connect ML engine with external banking systems—implementing authentication/authorization, input validation, audit-friendly logging, and resilient error handling to enable adoption across new clients."
+      # - "Engineered two white-label fintech product's frontend and widget SDK using React, Typescript, Rollup, Python, and PostgreSQL enabling customers integrate platform and features from product suite into internal systems resulting in multiple paid clients."
+      # - "Owned platform integrations by designing, reliable REST APIs (Python) to connect ML engine with external banking systems—implementing authentication/authorization, input validation, audit-friendly logging, and resilient error handling to enable adoption across new clients."
 
   - role: "Senior Software Engineer"
     company: "Enquero Global LLP"
     location: "Bengaluru, IN"
-    period: "December 2016 - December 2019"
+    period: "Dec 2016 - Dec 2019"
     description:
-      - "Led delivery of Atlassian's multi-currency and i18n checkout, partnering with the team to translate requirements into a shippable implementation and driving outcomes of $6M revenue and a 35% sales lift in Japan."
-      - "Set technical direction and led delivery for Veritas by replacing Salesforce-based workflows with a custom Entitlement Management System frontend (Angular), improving operational efficiency and reducing operating expense."
-      - "Built enterprise frontend platforms (PowerMe, DataCatalog) from scratch, shaping architecture and delivery milestones while mentoring engineers and contributing to hiring that scaled the team from 6 to 30+ people in 2 years."
+      # - "Led delivery of Atlassian's multi-currency and i18n checkout, partnering with the team to translate requirements into a shippable implementation and driving outcomes of $6M revenue and a 35% sales lift in Japan."
+      # - "Set technical direction and led delivery for Veritas by replacing Salesforce-based workflows with a custom Entitlement Management System frontend (Angular), improving operational efficiency and reducing operating expense."
+      # - "Built enterprise frontend platforms (PowerMe, DataCatalog) from scratch, shaping architecture and delivery milestones while mentoring engineers and contributing to hiring that scaled the team from 6 to 30+ people in 2 years."
 
   - role: "Software Engineer"
     company: "Infosys Limited"
     location: "Bengaluru, IN"
-    period: "February 2014 - November 2016"
+    period: "Feb 2014 - Nov 2016"
     description:
-      - "Shipped multiple on-prem enterprise networking projects using Angular, AngularJS, Backbone.js, and D3.js that increased adoption by ~15% across mid-to-large customers."
-      - "Mentored 4 graduate engineers, cutting ramp-up time by ~30% and improving team delivery."
+      # - "Shipped multiple on-prem enterprise networking projects using Angular, AngularJS, Backbone.js, and D3.js that increased adoption by ~15% across mid-to-large customers."
+      # - "Mentored 4 graduate engineers, cutting ramp-up time by ~30% and improving team delivery."
 
 projects:
   - title: "Shop Apotheke Shopping Cart"
@@ -87,7 +88,7 @@ projects:
   - title: "Syntea"
     company: "IU"
     link: "https://www.iu.org/digital-tools/syntea/"
-    period: "December 2023 - March 2025"
+    period: "Dec 2023 - Mar 2025"
     description:
       - "Developed features on Deep Dialog Learning resulting in increase of student engagement by 27% on month-over-month basis."
       - "Implemented a Conversation Analysis platform to collect, review, and aggregate quality metrics on Syntea conversations, enabling stakeholders to identify pain points and prioritize feature amendments."
@@ -102,9 +103,9 @@ projects:
       - "Developed the first scalable shopping cart solution at Atlassian that supports multiple currencies and languages."
 
 experiments:
-  - title: "Paisa.app Optimization (WIP)"
-    description: "Working on UI/UX optimizations for a forked version of Paisa.app. Fixing critical bugs where level 3 expansion breaks the layout, and replacing the legacy tabular view with a stable, responsive grid system."
-    tags: ["Open Source", "UI/UX", "WIP", "Re-design"]
+  - title: "'Paisa.app' Optimizations"
+    description: "UI/UX optimizations for a forked version of Paisa.app. Fixed critical bug where level 3 expansion of Accounts breaks the layout, and replacing the legacy tabular view with a stable, responsive grid system using AgGrid."
+    tags: ["Open Source", "UI/UX", "Re-design"]
 
   - title: "Local AI & Workflow Automation"
     description: "Running Qwen3 4B model locally on MacBook M1 Pro to power personalized workflows: Auto-tagging emails in Thunderbird, integrating with Docker MCP server for a 'Second Brain' workbench in Obsidian, and automating note sync via Git + Rsync to personal cloud and Google Drive with an additional layer of encryption."
@@ -112,7 +113,7 @@ experiments:
 
   - title: "Home Lab & Personal Cloud"
     link: "https://ashish.ydns.eu"
-    description: "Self-hosted personal cloud infrastructure on Raspberry Pi 4 using DDNS. Features include Wireguard tunneling for system-wide AdGuard blocking, financial ledger management (Paisa/Ledger-cli), and secure NAS storage."
+    description: "Self-hosted personal cloud infrastructure using Dietpi on Raspberry Pi 4 using DDNS. Supports TailScale's exit node, WAN wide AdGuard blocking, financial ledger management (ledger-cli), self-hosted Bitwarden and secured NAS storage."
     tags: ["Self-Hosted", "RPi4", "DDNS", "Wireguard", "AdGuard", "Finance", "NAS", "Security"]
 
 education:
@@ -129,9 +130,9 @@ education:
     year: "2013"
     score: 3.5 GPA
     details:
-      - "Led club activities as Vice President for FOSS Club from 2010-2012."
-      - "Coordinated partnerships and initiatives, increasing visibility and engagement within the department."
-      - "Won District Level Drupal web development competition."
+      # - "Led club activities as Vice President for FOSS Club from 2010-2012."
+      # - "Coordinated partnerships and initiatives, increasing visibility and engagement within the department."
+      # - "Won District Level Drupal web development competition."
 
 certifications:
   - name: "AI Engineering"
@@ -148,48 +149,29 @@ skills:
     - "JavaScript"
     - "TypeScript"
     - "Python3"
-    - "NodeJS"
-    - "SQL"
-    - "NoSQL"
-    - "Chroma DB"
-    - "Redis"
-    - "Apache Kafka"
-  frameworks:
+  technologies:
     - "React"
-    - "Angular"
-    - "Next.js"
+    - "NodeJS"
     - "ExpressJS"
-    - "KoaJS"
-    - "Vue"
     - "FastAPI"
-    - "Flask"
-  tools:
-    - "Redux Observable(RxJS)"
-    - "Redux Saga"
-    - "Tanstack Query"
-    - "Tailwind CSS"
-    - "Styled Components"
+    - "AWS"
+    - "Git"
+    - "Redis"
+  databases:
+    - "PostgreSQL"
+    - "MongoDB"
+    - "Apache Kafka"
+    - "Chroma DB"
+  infra:
+    - "Kubernetes"
+    - "AWS"
+  ml_and_ai:
+    - "Numpy"
+    - "PyTorch"
+    - "HuggingFace"
     - "LangChain"
     - "LangGraph"
     - "LangSmith"
-    - "Google ADK"
-    - "Numpy"
-    - "Tensorflow"
-    - "PyTorch"
-    - "Keras"
-    - "Claude Code"
-    - "OpenCode"
-    - "Codex"
-  other:
-    - "Jest"
-    - "Cypress"
-    - "Playwright"
-    - "Enzyme"
-    - "React Testing Library"
-    - "AWS"
-    - "Docker"
-    - "Kubernetes"
-    - "Git"
-    - "HuggingFace"
-    - "CircleCI"
-    - "Gitlab"
+    - "Supervised Fine Tuning"
+    - "Low Rank Adaptation (LoRA)"
+    - "Quantized Low Rank Adaptation (Q-LoRA)"

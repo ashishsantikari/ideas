@@ -25,6 +25,40 @@
   </section>
   {{- end }}
 
+  {{/* ── Skills ── */}}
+  {{- with $r.skills }}
+  <section class="resume-section">
+    <h2>Skills</h2>
+    <div class="resume-skills">
+      {{- with .languages }}
+      <div class="resume-skill-group">
+        <strong>Languages:</strong> {{ delimit . ", " }}
+      </div>
+      {{- end }}
+      {{- with .technologies }}
+      <div class="resume-skill-group">
+        <strong>Technologies:</strong> {{ delimit . ", " }}
+      </div>
+      {{- end }}
+      {{- with .databases }}
+      <div class="resume-skill-group">
+        <strong>Databases:</strong> {{ delimit . ", " }}
+      </div>
+      {{- end }}
+      {{- with .infra }}
+      <div class="resume-skill-group">
+        <strong>Infrastructure:</strong> {{ delimit . ", " }}
+      </div>
+      {{- end }}
+      {{- with .ml_and_ai }}
+      <div class="resume-skill-group">
+        <strong>ML &amp; AI:</strong> {{ delimit . ", " }}
+      </div>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+
   {{/* ── Experience ── */}}
   {{- with $r.experience }}
   <section class="resume-section">
@@ -90,35 +124,6 @@
       {{- end }}
     </div>
     {{- end }}
-  </section>
-  {{- end }}
-
-  {{/* ── Skills ── */}}
-  {{- with $r.skills }}
-  <section class="resume-section">
-    <h2>Skills</h2>
-    <div class="resume-skills">
-      {{- with .languages }}
-      <div class="resume-skill-group">
-        <strong>Languages:</strong> {{ delimit . ", " }}
-      </div>
-      {{- end }}
-      {{- with .frameworks }}
-      <div class="resume-skill-group">
-        <strong>Frameworks:</strong> {{ delimit . ", " }}
-      </div>
-      {{- end }}
-      {{- with .tools }}
-      <div class="resume-skill-group">
-        <strong>Tools &amp; Libraries:</strong> {{ delimit . ", " }}
-      </div>
-      {{- end }}
-      {{- with .other }}
-      <div class="resume-skill-group">
-        <strong>Testing &amp; Infra:</strong> {{ delimit . ", " }}
-      </div>
-      {{- end }}
-    </div>
   </section>
   {{- end }}
 
