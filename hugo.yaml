@@ -117,10 +117,6 @@ menu:
       name: Tags
       url: /tags/
       weight: 30
-    - identifier: resume
-      name: Resume
-      url: /resume/
-      weight: 40
     - identifier: labs
       name: Labs
       url: /labs/
