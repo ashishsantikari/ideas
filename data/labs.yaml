@@ -11,7 +11,16 @@
   description: "A privacy-first CLI tool for reading SMS messages remotely via Pushbullet — built for expats who need OTPs from home-country SIMs without costly roaming plans. Supports end-to-end encryption, multiple accounts, and Bitwarden-backed secret management. Designed to enable automated workflows like OTP extraction, LLM integrations, and trading bot confirmations — all without your data ever leaving your terminal."
   version: "1.0.0-alpha.1"
   status: "published"
-  tags: ["CLI", "TypeScript", "npm", "Pushbullet", "E2E Encryption", "Privacy", "Open Source"]
+  tags:
+    [
+      "CLI",
+      "TypeScript",
+      "npm",
+      "Pushbullet",
+      "E2E Encryption",
+      "Privacy",
+      "Open Source",
+    ]
   links:
     - label: "npm"
       url: "https://www.npmjs.com/package/@ashishsantikari/pbsms"
@@ -21,9 +30,29 @@
 - title: "Penko Device Dashboard"
   description: "A browser-based Industrial IoT dashboard that replaces traditional Windows executables for monitoring Penko 1020 weighing indicators. Built as a freelance POC for an industrial manufacturer, it streams real-time weight readings at 300ms intervals via WebSocket, supports up to 10+ stations with drag-and-drop layout, and bridges hardware through Node-RED and PLC integration — accessible from any browser, no installation required."
   status: "wip"
-  tags: ["IoT", "React", "TypeScript", "WebSocket", "Node-RED", "Tailwind CSS", "Vite", "Freelance"]
+  tags:
+    [
+      "IoT",
+      "React",
+      "TypeScript",
+      "WebSocket",
+      "Node-RED",
+      "Tailwind CSS",
+      "Vite",
+      "Freelance",
+    ]
   links:
     - label: "Demo"
       url: "https://penkodashboard.netlify.app/"
     - label: "Source"
       url: "https://github.com/ashishsantikari/penko-device-dashboard"
+
+- title: "Real Estate Calculator using PEG.JS"
+  description: "A syntax based calculator"
+  status: "published"
+  tags: ["Astro", "TypeScript", "PEG.JS", "Grammar", "Parser"]
+  links:
+    - label: "Demo"
+      url: "https://calc-real-estate.netlify.app/"
+    - label: "Source"
+      url: "https://github.com/ashishsantikari/realestate-calculator-pegjs"
