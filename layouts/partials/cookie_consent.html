@@ -35,6 +35,14 @@
     function loadAnalytics() {
         {{ if hugo.IsProduction | or (eq site.Params.env "production") | or (eq site.Params.env "deploy-preview") }}
 
+        /* Update consent state to granted since user previously accepted */
+        gtag('consent', 'update', {
+            'ad_storage': 'granted',
+            'ad_user_data': 'granted',
+            'ad_personalization': 'granted',
+            'analytics_storage': 'granted'
+        });
+
         {{ with $gtmID }}
         /* Google Tag Manager */
         (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -69,12 +77,24 @@
     }
 
     document.getElementById('cookie-notice-accept').addEventListener("click", function() {
+        if (typeof gtag === 'function') {
+            gtag('consent', 'update', {
+                'ad_storage': 'granted',
+                'ad_user_data': 'granted',
+                'ad_personalization': 'granted',
+                'analytics_storage': 'granted'
+            });
+        }
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({'event': 'consent_accepted'});
         createCookie('cookie-notice-option', 'true', 31);
         document.getElementById('cookie-notice').style.display = 'none';
-        location.reload();
+        setTimeout(function() { location.reload(); }, 300);
     });
 
     document.getElementById('cookie-notice-deny').addEventListener("click", function() {
+        window.dataLayer = window.dataLayer || [];
+        dataLayer.push({'event': 'consent_denied'});
         createCookie('cookie-notice-option', 'false', 31);
         document.getElementById('cookie-notice').style.display = 'none';
         location.reload();
