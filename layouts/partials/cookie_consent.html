@@ -1,5 +1,4 @@
 {{- $gtmID := site.Params.gtmID -}}
-{{- $gaID := site.Params.googleAnalyticsID -}}
 
 <div id="cookie-notice">
   <span>We use third party cookies and scripts to improve the
@@ -52,21 +51,6 @@
         })(window,document,'script','dataLayer','{{ . }}');
         /* End Google Tag Manager */
         {{ end }}
-
-        {{ with $gaID }}
-        /* Google Analytics (GA4) */
-        var gaScript = document.createElement('script');
-        gaScript.async = true;
-        gaScript.src = 'https://www.googletagmanager.com/gtag/js?id={{ . }}';
-        document.head.appendChild(gaScript);
-
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ . }}');
-        /* End Google Analytics */
-        {{ end }}
-
         {{ end }}
     }
 
